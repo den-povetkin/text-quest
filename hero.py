@@ -43,5 +43,5 @@ class Hero():
            enemy.strike(self)
            if self.health <= 0:
                print(self.name, 'пал в этом нелегком бою!\n')
-		break
+#             break
            sleep(5)
